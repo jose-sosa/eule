@@ -38,7 +38,8 @@ nav a:hover{
 }
 
 footer{
-  height:300px;
+  width:100%;
+
 }
 #red-underline{
   color:#ff0000;
@@ -48,6 +49,14 @@ footer{
 /*======================
  -----C-L-A-S-S-E-S-----
 =======================*/
+.footerlist{
+  display:inline-block;
+  width:32%;
+  float:left;
+}
+.footerimages{
+  width:50px;
+}
 
 /*-- Text Customization--*/
 .width100{  /*-- Used to Utilize FlexBox--*/
@@ -207,9 +216,6 @@ animation: falling 3.5s infinite linear;
   margin-right:20%;
 }
 
-.links{
-  color:rgb(21, 223, 60);
-}
 
     /*--- Contact Page / Form Classes ---*/
 .paddingtop15{
