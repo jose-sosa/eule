@@ -216,7 +216,6 @@ animation: falling 3.5s infinite linear;
   margin-right:20%;
 }
 
-
     /*--- Contact Page / Form Classes ---*/
 .paddingtop15{
   padding-top:15px;
@@ -416,7 +415,6 @@ animation: falling 3.5s infinite linear;
 }
 
 /*--- Contact Page / Reflection Effect ---*/
-
 @keyframes movement{
 
   100%{
