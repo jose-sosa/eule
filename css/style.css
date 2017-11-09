@@ -111,7 +111,7 @@ animation: falling 3.5s infinite linear;
 
 /*--- About Page / Image made to rotate 380 Degrees ---*/
 .rotating{
-  width:50%;
+  width:35%;
   animation:rotating 2.5s ease-out;
 
 }
@@ -282,7 +282,7 @@ animation: falling 3.5s infinite linear;
   100%{
     transform:translateX(60px);
     animation-timing-function: ease-in-out;
-    top:800px;
+    top:600px;
   }
 }
 
