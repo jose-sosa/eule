@@ -4,6 +4,7 @@
 
 body{
   background-color:#333030;
+  margin:0;
   text-align:center;
   display:flex;
   flex-wrap:wrap;
@@ -44,14 +45,8 @@ footer{
 /*======================
  -----C-L-A-S-S-E-S-----
 =======================*/
-.footerlist{
-  display:inline-block;
-  width:32%;
-  float:left;
-}
-.footerimages{
-  width:50px;
-}
+
+
 
 /*-- Text Customization--*/
 .width100{  /*-- Used to Utilize FlexBox--*/
@@ -75,6 +70,16 @@ footer{
   color:#ffffff;
   font-weight:bolder;
   font-size: 24px;
+}
+
+/*-- Footer Customization--*/
+.footerlist{
+  display:inline-block;
+  width:32%;
+  float:left;
+}
+.footerimages{
+  width:50px;
 }
 
 /*--- Home (Index) Page / Increasing Image Size +  Leaf Animation Classes ---*/
@@ -113,7 +118,6 @@ animation: falling 3.5s infinite linear;
 .rotating{
   width:35%;
   animation:rotating 2.5s ease-out;
-
 }
 
 .rotating-text{
