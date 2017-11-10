@@ -151,9 +151,7 @@ animation-delay: 2.5s;
   width:60%;
   height:40%;
   position:absolute;
-  animation:shutter1 4.5s;
-  animation-timing-function:linear;
-  animation-fill-mode: forwards;
+  animation:shutter1 4.5s linear forwards;
 }
 
 .shutter-effect2{
@@ -163,9 +161,7 @@ animation-delay: 2.5s;
   position:absolute;
   top:60%;
   left:40%;
-  animation:shutter2 4.5s;
-  animation-timing-function:linear;
-  animation-fill-mode: forwards;
+  animation:shutter2 4.5s linear forwards;
 }
 
 .shutter-effect3{
@@ -174,9 +170,7 @@ animation-delay: 2.5s;
   height:60%;
   position:absolute;
   left:60%;
-  animation:shutter3 4.5s;
-  animation-timing-function:linear;
-  animation-fill-mode: forwards;
+  animation:shutter3 4.5s linear forwards;
 }
 
 .shutter-effect4{
@@ -185,9 +179,7 @@ animation-delay: 2.5s;
   height:60%;
   position:absolute;
   top:40%;
-  animation:shutter4 4.5s;
-  animation-timing-function:linear;
-  animation-fill-mode: forwards;
+  animation:shutter4 4.5s linear forwards;
 }
 
 /*--- Contact Page / Image made to rotateY 180 Degrees + Text Below Image ---*/
@@ -256,25 +248,25 @@ animation-delay: 2.5s;
 /*--- Home Page / Leaves and Owl ---*/
 @keyframes falling{
   20%{
-    transform:translateX(60px);
+    transform:translateX(60px)rotateY(72deg);
     animation-timing-function: ease-in-out;
   }
 
   40%{
-    transform:translateX(-60px);
+    transform:translateX(-60px)rotateY(144deg);
     animation-timing-function: ease-in-out;
   }
   60%{
-    transform:translateX(60px);
+    transform:translateX(60px)rotateY(216deg);
     animation-timing-function: ease-in-out;
   }
   80%{
-    transform:translateX(-60px);
+    transform:translateX(-60px)rotateY(288deg);
     animation-timing-function: ease-in-out;
   }
 
   100%{
-    transform:translateX(60px);
+    transform:translateX(60px)rotateY(360deg);
     animation-timing-function: ease-in-out;
     top:600px;
   }
