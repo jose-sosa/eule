@@ -140,66 +140,51 @@ animation: falling 3.5s infinite linear;
   position:absolute;
   top:0;
   left:0;
+  animation: imgGS 4.5s linear;
 }
 
 .shutter-effect1{
   background:black;
   width:60%;
-  height:200px;
+  height:40%;
   position:absolute;
-
+  animation:shutter1 4.5s;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
 }
 
 .shutter-effect2{
   background:black;
   width:60%;
-  height:200px;
+  height:40%;
   position:absolute;
-  top:300px;
+  top:60%;
   left:40%;
-
+  animation:shutter2 4.5s;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
 }
 
 .shutter-effect3{
   background:black;
   width:40%;
-  height:300px;
+  height:60%;
   position:absolute;
   left:60%;
-
+  animation:shutter3 4.5s;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
 }
 
 .shutter-effect4{
   background:black;
   width:40%;
-  height:300px;
+  height:60%;
   position:absolute;
-  top:200px;
-
-}
-
-.shutter1{
- animation:shutter1 2.5s;
- animation-timing-function:linear;
- animation-fill-mode: forwards;
-}
-
-.shutter2{
- animation:shutter2 2.5s;
- animation-timing-function:linear;
- animation-fill-mode: forwards;
-}
-
-.shutter3{
- animation:shutter3 2.5s;
- animation-timing-function:linear;
- animation-fill-mode: forwards;
-}
-
-.shutter4{
- animation:shutter4 2.5s;
- animation-timing-function:linear;
- animation-fill-mode: forwards;
+  top:40%;
+  animation:shutter4 4.5s;
+  animation-timing-function:linear;
+  animation-fill-mode: forwards;
 }
 
 /*--- Contact Page / Image made to rotateY 180 Degrees + Text Below Image ---*/
@@ -410,6 +395,15 @@ animation: falling 3.5s infinite linear;
         width:0;
         height:0;
     }
+}
+
+@keyframes imgGS{
+  0%{
+    filter:grayscale(1);
+  }
+  100%{
+    filter:grayscale(0);
+  }
 }
 
 /*--- Contact Page / Reflection Effect ---*/
