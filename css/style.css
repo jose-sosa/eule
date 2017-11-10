@@ -98,10 +98,12 @@ footer{
 position:absolute;
 top:-100px;
 animation: falling 3.5s infinite linear;
+animation-delay: 2.5s;
 }
 
 .leavess{
   animation: leavess 3.5s infinite linear;
+  animation-delay: 2.5s;
 }
 
 .pos0{left:5%;}
