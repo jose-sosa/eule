@@ -140,7 +140,7 @@ animation: falling 3.5s infinite linear;
   position:absolute;
   top:0;
   left:0;
-  animation: imgGS 4.5s linear;
+  animation: imgGS 4.5s ease-out;
 }
 
 .shutter-effect1{
@@ -399,6 +399,9 @@ animation: falling 3.5s infinite linear;
 
 @keyframes imgGS{
   0%{
+    filter:grayscale(1);
+  }
+  50%{
     filter:grayscale(1);
   }
   100%{
