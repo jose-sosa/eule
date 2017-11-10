@@ -191,6 +191,8 @@ animation: falling 3.5s infinite linear;
 /*--- Contact Page / Image made to rotateY 180 Degrees + Text Below Image ---*/
 .movement{
   width:60%;
+  position: relative;
+  box-shadow: 1px 20px 73px 25px gray;
   animation:movement 3.5s;
   animation-fill-mode: forwards;
 }
